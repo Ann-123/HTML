@@ -1,0 +1,41 @@
+<html lang-"ru-RU">
+<head>
+<title>Form</title>
+</head>
+<body>
+<h1>Registration</h1>
+<form>
+	<p>
+		<input type="radio" name="sex" value="men">Men
+		<input type="radio" name="sex" value="woman">Female
+	</p>
+	<p>
+		Name <input type="text" name="fio" placeholder="Enter name">
+	</p>
+	<p>
+		Password <input type="password" name="pass">
+	</p>
+		Country
+		<select name="country">
+			<option disabled value="none">Choose the country</option>
+			<option value="spain">Spain</option>
+			<option selected value="japan">Japan</option>
+		</select>
+	</p>
+		Messege <textarea name="msg"></textarea>
+	</p>
+	<p>
+		<input type="checkbox" name="agree" value="agreed">I agree to send
+	</p>
+	<p>
+		<input type="file" name="fileform">
+	</p>
+	<p>
+		<input type="submit" value="Submit button" onclick="alert('Hello World')">
+	</p>
+	<p>
+		<input type="reset" value="Reset everything">
+	</p>
+</form>
+</body>
+</html>
